@@ -61,9 +61,8 @@
     width: 100%;
 }
 
-.intro-body {
+.intro-page {
     text-align: center;
-    background-image: url('C:/Users/Yitzak Hernandez/Documents/OneDrive/Documents/FreeLance/peterkoehler.co/images/image.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -98,6 +97,15 @@ p.intro-button-hover:hover {
     color: black;
     border: unset;
     cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #full-page {

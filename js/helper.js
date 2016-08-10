@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var img_array = [1, 2, 3, 4, 5],
+    var img_array = [0, 1],
         newIndex = 0,
         index = 0,
         interval = 5000;
@@ -28,7 +28,7 @@ $(document).ready(function () {
                     }, 1000);
                 }, 3000);
             });
-            return 'url(C:/Users/Yitzak Hernandez/Documents/OneDrive/Documents/FreeLance/peterkoehler.co/images/image' + img_array[index] + '.jpg)';
+            return 'url(https://raw.githubusercontent.com/kameoxylon/peterkoehler.co/master/images/image' + img_array[index] + '.jpg)';
         });
         setTimeout(changeBg, interval);
     })();
