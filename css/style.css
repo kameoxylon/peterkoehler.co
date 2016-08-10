@@ -1,0 +1,110 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-family: 'Abel', sans-serif;
+}
+
+*{
+    border-style: dotted;
+    /color: red;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+    min-width: 390px;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.intro-body {
+    text-align: center;
+    background-image: url('C:/Users/Yitzak Hernandez/Documents/OneDrive/Documents/FreeLance/peterkoehler.co/images/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro-title {
+    font-size: 650%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.intro-button {
+    border: solid;
+    color: white;
+    padding: 20px 45px;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+p.intro-button-hover:hover {
+    background-color: white;
+    opacity: 0.85;
+    padding: 23px 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    border: unset;
+    cursor: pointer;
+}
+
+#full-page {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+}
