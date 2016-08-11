@@ -5,19 +5,33 @@
     <meta charset="utf-8" />
     <link href="css/style.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("p").mouseover(function(){
+        $("p").css("background-color", "white");
+        $("p").css("color", "black");
+        $("p").css("opacity", ".80");
+        $("p").css("border-color", "white");
+    });
+    $("p").mouseout(function(){
+        $("p").css("background-color", "");
+        $("p").css("color", "white");
+        $("p").css("opacity", "1");
+        $("p").css("border-color", "white");
+    });
+});
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="js/jquery-3.1.0.js"></script>
     <title>Intro Page</title>
 </head>
 <body class="intro-body">
-    <div id="background-change">
-        <div class="background-image image0">
-            <h1 class="intro-title">Peter Koehler</h1>
-            <p class="intro-button">Enter</p>
-        </div>
+    
+    <div id="background-change" class="call-in">
         <div class="background-image image1">
             <h1 class="intro-title">Peter Koehler</h1>
-            <p class="intro-button intro-button-hover">Enter</p>
+            <p class="intro-button"><span>Enter</span></p>
         </div>
         <div class="background-image image2">
             <h1 class="intro-title">Peter Koehler</h1>
@@ -31,8 +45,10 @@
             <h1 class="intro-title">Peter Koehler</h1>
             <p class="intro-button intro-button-hover">Enter</p>
         </div>
-
-
+        <div class="background-image image5">
+            <h1 class="intro-title">Peter Koehler</h1>
+            <p class="intro-button intro-button-hover">Enter</p>
+        </div>
     </div>
 </body>
 </html>
